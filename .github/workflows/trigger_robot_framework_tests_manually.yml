@@ -7,13 +7,13 @@ on:
       DINOSAUR:
         description: 'Creature that is expected to be dinosaur:'
         # Default value if no value is explicitly provided
-        default: dog
+        default: achillobator
         # Input has to be provided for the workflow to run
         required: true
       NOT_DINOSAUR:
         description: 'Creature that is not a dinosaur:'
         # Default value if no value is explicitly provided
-        default: achillobator
+        default: dog
         # Input has to be provided for the workflow to run
         required: true
       tag:
