@@ -31,7 +31,7 @@ jobs:
         - name: List files in the repository
           run: |
             ls ${{ github.workspace }}
-          - run: echo "This job's status is ${{ job.status }}."
+        - run: echo "This job's status is ${{ job.status }}."
         - name: Create folder for reports
           run: mkdir reports
         - name: Run Robot Framework Tests
